@@ -20,7 +20,7 @@ sudo apt-get install -y nginx \
   mysql-server
 
 # mysql settings
-sudo mysql -u root -proot -e "CREATE DATABASE web; GRANT ALL PRIVILEGES ON web.* TO 'webuser' IDENTIFIED BY 'password';"
+sudo mysql -u root -proot -e "CREATE DATABASE osclass; GRANT ALL PRIVILEGES ON osclass.* TO 'osclass' IDENTIFIED BY 'osclass';"
 
 # nginx settings
 sudo mkdir -p /var/www/example.com/public_html
